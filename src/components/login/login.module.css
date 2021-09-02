@@ -1,0 +1,34 @@
+.login_wrap {
+    background-color: #fff;
+    padding: 10px 0 20px;
+}
+
+.login_wrap p {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.account_box li {
+    list-style: none;
+    width: 100%;
+}
+
+.account_box li button:hover {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+
+.account_box li button {
+    width: 90%;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    border: 2px solid #222;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 0;
+}
