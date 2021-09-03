@@ -1,5 +1,7 @@
+@value makerGreen from '../../common/colors.css';
+
 .footer {
-    background-color: #222;
+    background-color: makerGreen;
 
 }
 

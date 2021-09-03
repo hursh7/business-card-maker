@@ -1,6 +1,12 @@
+@value makerGreen from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerBlack from '../../common/colors.css';
+
 .header {
-    background-color:  #222;
-    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    background-color:  makerGreen;
+    padding: 0.5em 0;
 }
 
 .header img {
@@ -10,5 +16,19 @@
 
 .title {
     font-size: 28px;
-    color: #fff;
+    color: makerWhite;
+}
+
+.logout {
+    position: absolute;
+    font-size: 0.75rem;
+    right: 1em;
+    top: 1em;
+    padding: 0.313rem;
+    border-radius: 5px;
+    background-color: makerBlack;
+    color: makerWhite;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
 }

@@ -8,21 +8,25 @@ const Login = ({ authService }) => {
         authService.login(event.currentTarget.textContent).then(console.log);
     };
     return (
-        <>
+        <section className={styles.login}>
             <Header />
-            <section className={styles.login_wrap}>
-                <p>Login</p>
+            <section>
+                <h2 className={styles.title}>Login</h2>
                 <ul className={styles.account_box}>
-                    <li>
-                        <button onClick={onLogin}>Google</button>
+                    <li className={styles.item}>
+                        <button className={styles.button} onClick={onLogin}>
+                            Google
+                        </button>
                     </li>
                     <li>
-                        <button onClick={onLogin}>Github</button>
+                        <button className={styles.button} onClick={onLogin}>
+                            Github
+                        </button>
                     </li>
                 </ul>
             </section>
             <Footer />
-        </>    
+        </section>    
     );
 }
 
