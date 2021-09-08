@@ -1,8 +1,8 @@
-@value makerGreen from '../../common/colors.css';
+@value makerMain from '../../common/colors.css';
 
 .footer {
-    background-color: makerGreen;
-
+    background-color: makerMain;
+    text-align: center;
 }
 
 .footer p {

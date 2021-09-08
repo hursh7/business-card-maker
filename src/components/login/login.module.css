@@ -1,4 +1,4 @@
-@value makerGreen, makerLightPink, makerWhite, makerWheat from '../../common/colors.css';
+@value makerMain, makerLightPink, makerWhite, makerWheat from '../../common/colors.css';
 
 .login {
     width: 30em;
@@ -7,6 +7,9 @@
     flex-direction: column;
     justify-content: center;
     background-color: makerWhite;
+    /* border-radius: 20px; */
+    -webkit-box-shadow: 4px 5px 22px 4px rgba(0,0,0,0.78); 
+    box-shadow: 6px 6px 30px 2px rgba(0, 0, 0, 0.473);
 }
 
 .title {
@@ -19,7 +22,8 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding: 0.5rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
 }
 
 .account_box li {
@@ -31,10 +35,10 @@
     width: 100%;
     height: 2.5em;
     font-size: 1.2rem;
-    border-radius: 1.2rem;
+    border-radius: 0.5rem;
     background-color: transparent;
     cursor: pointer;
-    border: 0.125rem solid makerGreen;
+    border: 0.125rem solid makerMain;
     outline: 0;
 }
 

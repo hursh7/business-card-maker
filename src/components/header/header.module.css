@@ -1,21 +1,19 @@
-@value makerGreen from '../../common/colors.css';
-@value makerWhite from '../../common/colors.css';
-@value makerBlack from '../../common/colors.css';
+@value makerMain, makerWhite, makerBlack from '../../common/colors.css';
 
 .header {
     position: relative;
     width: 100%;
-    background-color:  makerGreen;
+    background-color: makerMain;
     padding: 0.5em 0;
+    text-align: center;
 }
 
 .header img {
-    width: 50px;
-    height: 100%;
+    width: 3em;
 }
 
 .title {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: makerWhite;
 }
 
