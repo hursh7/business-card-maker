@@ -6,7 +6,7 @@ import Preview from '../preview/preview';
 import styles from './maker.module.css';
 import { useHistory } from 'react-router';
 
-const Maker = ({ authService }) => {
+const Maker = ({ FileInput, authService }) => {
     const [cards, setCards] = useState({
         1: {
             id: '1',
@@ -77,7 +77,8 @@ const Maker = ({ authService }) => {
         <section className={styles.maker}>
             <Header onLogout={onLogout} />
             <div className={styles.container}>
-                <Editor 
+                <Editor
+                FileInput={FileInput} 
                 cards ={cards} 
                 addCard={createOrupdateCard} 
                 updateCard ={createOrupdateCard} 
