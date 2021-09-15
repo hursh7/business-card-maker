@@ -24,7 +24,7 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
             setCards(cards);
         })
         return () => stopSync();
-    }, [userId]);
+    }, [userId, cardRepository]);
 
     useEffect(() => {
         authService.onAuthChange(user => {
@@ -34,7 +34,7 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
                 history.push('/');
             }
         });
-    });
+    }, [history, authService]);
 
     const createOrupdateCard = card => {
         setCards(cards => {
@@ -43,8 +43,6 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
             return updated;
         });
         cardRepository.saveCard(userId, card);
-        console.log(userId);
-        console.log(card);
     };
 
     const deleteCard = card => {
