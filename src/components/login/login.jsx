@@ -33,12 +33,17 @@ const Login = ({ authService }) => {
                 <ul className={styles.account}>
                     <li className={styles.item}>
                         <button className={styles.button} onClick={onLogin}>
-                            Google
+                            Sign in with Google
                         </button>
                     </li>
-                    <li>
+                    <li className={styles.item}>
                         <button className={styles.button} onClick={onLogin}>
-                            Github
+                            Sign in with Github
+                        </button>
+                    </li>
+                    <li className={styles.item}>
+                        <button className={styles.button} onClick={onLogin}>
+                            Sign in with Facebook
                         </button>
                     </li>
                 </ul>
