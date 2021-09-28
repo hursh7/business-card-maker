@@ -1,8 +1,7 @@
-@value makerGrey from './common/colors.css';
+@value makerBg from './common/colors.css';
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 .app {
@@ -11,6 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: makerGrey ;
+    background-color: makerBg;
 }
 

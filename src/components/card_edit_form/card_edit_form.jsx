@@ -75,9 +75,9 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
             onChange={onChange} 
             />
             <div className={styles.fileInput}>
-                <FileInput name={fileName} onFileChange = {onFileChange} />
+                <FileInput name={fileName} onFileChange={onFileChange} />
             </div>
-            <Button name='Delete' onClick= {onSubmit} />
+            <Button name='Delete' onClick={onSubmit} onFileChange={onFileChange} />
         </form>
     )
 };

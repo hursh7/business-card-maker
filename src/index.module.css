@@ -1,8 +1,44 @@
 @value makerGrey from './common/colors.css';
+@font-face {
+  font-family: "spoqa";
+  font-display: fallback;
+  font-weight: 100;
+  font-style: thin;  
+  src: url("./static/fonts/SpoqaHanSansNeo-Thin.ttf") format("truetype"), url("./static/fonts/SpoqaHanSansNeo-Thin.woff") format("woff"), url("./static/fonts/SpoqaHanSansNeo-Thin.woff2") format("woff2") url("./static/fonts/SpoqaHanSansNeo-Thin.eot?iefix") format("embedded-opentype");
+}
+@font-face {
+  font-family: "spoqa";
+  font-display: fallback;
+  font-weight: 300;
+  font-style: light;  
+  src: url("./static/fonts/SpoqaHanSansNeo-Light.ttf") format("truetype"), url("./static/fonts/SpoqaHanSansNeo-Light.woff") format("woff"), url("./static/fonts/SpoqaHanSansNeo-Light.woff2") format("woff2") url("./static/fonts/SpoqaHanSansNeo-Light.eot?iefix") format("embedded-opentype");
+}
+@font-face {
+  font-family: "spoqa";
+  font-display: fallback;
+  font-weight: 400;
+  font-style: Normal;  
+  src: url("./static/fonts/SpoqaHanSansNeo-Regular.ttf") format("truetype"), url("./static/fonts/SpoqaHanSansNeo-Regular.woff") format("woff"), url("./static/fonts/SpoqaHanSansNeo-Regular.woff2") format("woff2") url("./static/fonts/SpoqaHanSansNeo-Regular.eot?iefix") format("embedded-opentype");
+}
+@font-face {
+  font-family: "spoqa";
+  font-display: fallback;
+  font-weight: 500;
+  font-style: Medium;  
+  src: url("./static/fonts/SpoqaHanSansNeo-Medium.ttf") format("truetype"), url("./static/fonts/SpoqaHanSansNeo-Medium.woff") format("woff"), url("./static/fonts/SpoqaHanSansNeo-Medium.woff2") format("woff2") url("./static/fonts/SpoqaHanSansNeo-Medium.eot?iefix") format("embedded-opentype");
+}
+@font-face {
+  font-family: "spoqa";
+  font-display: fallback;
+  font-weight: 700;
+  font-style: Bold;  
+  src: url("./static/fonts/SpoqaHanSansNeo-Bold.ttf") format("truetype"), url("./static/fonts/SpoqaHanSansNeo-Bold.woff") format("woff"), url("./static/fonts/SpoqaHanSansNeo-Bold.woff2") format("woff2") url("./static/fonts/SpoqaHanSansNeo-Bold.eot?iefix") format("embedded-opentype");
+}
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'spoqa';
 }
 
 body {
@@ -10,4 +46,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: makerGrey;
 }
+
+
 
