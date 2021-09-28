@@ -1,7 +1,7 @@
-@value makerBlack, makerBlue2, makerWhite from '../../common/colors.css';
+@value makerBlack, makerRed, makerWhite from '../../common/colors.css';
 
 .button {
-    background-color: makerBlue2;
+    background-color: makerRed;
     color: makerWhite;
     font-weight: bold;
     cursor: pointer; 
@@ -11,14 +11,6 @@
     border: 1px solid makerBlack;
     border-left: 0;
     border-top: 0;
-}
-
-.button.blue {
-    background-color: makerBlue2;
-}
-
-.button.red {
-    background-color: makerLightPink;
 }
 
 .button:hover {

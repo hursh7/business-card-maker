@@ -1,4 +1,4 @@
-@value makerBg from './common/colors.css';
+@value makerBg, makerColorful from './common/colors.css';
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: makerBg;
+    /* background-color: makerBg; */
+    background-image: makerColorful;
 }
 

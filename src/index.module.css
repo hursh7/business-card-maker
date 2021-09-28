@@ -1,4 +1,4 @@
-@value makerGrey from './common/colors.css';
+@value makerGrey, makerColorful from './common/colors.css';
 @font-face {
   font-family: "spoqa";
   font-display: fallback;
@@ -44,7 +44,6 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: makerGrey;
 }
 
 

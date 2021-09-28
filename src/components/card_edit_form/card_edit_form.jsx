@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../button/button';
+import ButtonDelete from '../button_delete/button_delete';
 import styles from './card_edit_form.module.css';
 
 const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
@@ -27,6 +27,7 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
         event.preventDefault();
         deleteCard(card);
     };
+    
  
     return (
         <form className={styles.form}>
@@ -77,7 +78,7 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
             <div className={styles.fileInput}>
                 <FileInput name={fileName} onFileChange={onFileChange} />
             </div>
-            <Button name='Delete' onClick={onSubmit} onFileChange={onFileChange} />
+            <ButtonDelete className={styles.delete} name='Delete' onClick={onSubmit} />
         </form>
     )
 };
