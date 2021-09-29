@@ -1,4 +1,4 @@
-@value makerMain, makerWhite, makerBlack, makerYellow from '../../common/colors.css';
+@value makerMain, makerWhite, makerBlack, makerYellow, makerBoldGrey from '../../common/colors.css';
 
 .header {
     position: relative;
@@ -32,7 +32,8 @@
     font-size: 0.75rem;
     right: 1.5em;
     top: 2.3em;
-    padding: 0.313rem;
+    /* padding: 0.313rem; */
+    padding: 8px;
     border-radius: 5px;
     background-color: makerBlack;
     color: makerWhite;

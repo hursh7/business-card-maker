@@ -1,16 +1,17 @@
 @value makerMain: #0056fb;
 @value makerBg: #0B90E3;
-@value makerLightBlue: #7a9ad3;
 @value makerBlue: #25437A;
+@value makerLightBlue: #7a9ad3;
 @value makerRed: #f05e45;
 @value makerBlack: black;
 @value makerWhite: white;
-@value makerLightGrey: #e8e7e6;
-@value makerLightPink: #ffeae8;
-@value makerGrey: #d2d9eb;
-@value makerPink: pink;
 @value makerYellow: #FBAC3F;
-@value makerShadow: rgba(217, 217, 217, 1);
+@value makerBoldGrey: #576175;
+@value makerGrey: #d2d9eb;
+@value makerLightGrey: #e8e7e6;
+@value makerPink: pink;
+@value makerLightPink: #ffeae8;
+@value makerShadow: 1px -1px 21px 5px rgba(156,141,141,0.75);
 @value makerColorful: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 
 

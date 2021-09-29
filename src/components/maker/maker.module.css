@@ -1,5 +1,5 @@
 @value mediaQuery from '../../common/size.css';
-@value makerWhite from '../../common/colors.css';
+@value makerWhite, makerShadow from '../../common/colors.css';
 
 .maker {
     width: 100%;
@@ -8,6 +8,9 @@
     display: flex;
     flex-direction: column;
     background-color: makerWhite;
+    box-shadow: makerShadow;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .container {

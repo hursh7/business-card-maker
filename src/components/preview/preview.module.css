@@ -1,15 +1,32 @@
-@value makerGreen from '../../common/colors.css';
+@value makerBoldGrey from '../../common/colors.css';
 
 .preview {
     flex-basis: 50%;
-    overflow-y: auto;
+    overflow: auto;
+}
+
+.preview::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.preview::-webkit-scrollbar-thumb {
+    background-color: makerBoldGrey;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+.preview::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px #fff;
 }
 
 .title {
     width: 100%;
     text-align: center;
     margin-bottom: 1em;
-    color: makerGreen;
+    color: makerBoldGrey;
 }
 
 .cards {

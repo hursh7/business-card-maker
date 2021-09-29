@@ -1,4 +1,4 @@
-@value makerMain, makerBlue, makerLightBlue, makerGrey, makerLightPink, makerWhite from '../../common/colors.css';
+@value makerMain, makerBlue, makerLightBlue, makerGrey, makerLightPink, makerWhite, makerShadow from '../../common/colors.css';
 
 .login {
     padding-bottom: 10px;
@@ -8,8 +8,8 @@
     flex-direction: column;
     justify-content: center;
     background-color: makerWhite;
+    box-shadow: makerShadow;
     border-radius: 5px;
-    box-shadow: 1px -1px 21px 5px rgba(156,141,141,0.75);
     overflow: hidden;
 }
 
