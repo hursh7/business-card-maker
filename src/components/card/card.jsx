@@ -1,19 +1,42 @@
 import React, { memo } from 'react';
 import styles from './card.module.css';
 
-const DEFAULT_IMAGE = '/images/default_logo.png';
+const DEFAULT_IMAGE = '/images/user.svg';
 const Card = memo(({ card }) => {
-    const {name, company, title, email, message, theme, fileURL} = card;
+    const {name, company, title, number, email, message, theme, fileURL} = card;
     const url = fileURL || DEFAULT_IMAGE;
     return (
         <li className={`${styles.card} ${getStyles(theme)}`}>
-            <img className={styles.avatar} src={url} alt="profile" />
+            <div className={styles.img}>
+                <img className={styles.avatar} src={url} alt="profile" />
+            </div>
             <div className={styles.info}>
-                <h1 className={styles.name}>{name}</h1>
-                <p className={styles.company}>{company}</p>
-                <p className={styles.title}>{title}</p>
-                <p className={styles.email}>{email}</p>
-                <p className={styles.message}>{message}</p>
+                <div className={styles.nameTitle}>
+                    <h1 className={styles.name}>{name}</h1>
+                    <p className={styles.title}>{title}</p>
+                </div>
+                <div className={styles.line}></div>
+                <p className={styles.company}>
+                    <span className={styles.icon}>
+                        <i class="fas fa-briefcase"></i>
+                    </span>
+                    {company}
+                </p>
+                <p className={styles.number}>
+                    <span className={styles.icon}>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    {number}
+                </p>
+                <p className={styles.email}>
+                    <span className={styles.icon}>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    {email}
+                </p>
+                <p className={styles.message}>
+                    {message}
+                </p>
             </div>
         </li>
     );

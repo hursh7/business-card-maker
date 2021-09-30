@@ -1,4 +1,4 @@
-@value makerBlack, makerWhite, makerLightGrey, makerColorful, makerPink, makerShadow from '../../common/colors.css';
+@value makerBlack, makerWhite, makerLightGrey, makerColorful, makerPink, makerBoldYellow,makerShadow from '../../common/colors.css';
 
 .card {
     display: flex;
@@ -6,9 +6,14 @@
     width: 100%;
     border-radius: 0.5em;
     margin-bottom: 1em;
-    padding: 0.2em 0;
+    padding: 1em 0;
     box-shadow: 4px 3px 8px 0px rgba(173, 173, 173, 0.623);
     max-width: 30rem;
+}
+
+.icon {
+    font-size: 14px;
+    margin-right: 5px;
 }
 
 .card.light {
@@ -22,17 +27,27 @@
     color: makerWhite;
 }
 
+.card.dark .icon {
+    color: makerWhite;
+}
+
 .card.colorful {
     background-image: makerColorful;
+    color: makerBoldYellow;
+}
+
+.card.colorful .icon {
+    color: makerBoldYellow;
 }
 
 .avatar {
-    width: 10em;
-    height: 10em;
     padding: 1em;
     margin-left: 0.5em;
     margin-right: 1em;
     border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
 }
 
 .info {
@@ -42,27 +57,60 @@
     width: 100%;
 }
 
-.name, .company, .title, .email, .message {
-    margin: 0;
+.company, .number, .email, .message {
+    /* margin: 0; */
     font-size: 0.8rem;
     margin-bottom: 0.2em;
 }
 
+.message {
+    margin-top: 5px;
+    width: 270px;
+}
+
+.nameTitle {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: makerPink;
+    margin-bottom: 8px;
+}
+
+/* .nameTitle::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 90%;
+    height: 2px;
+    background-color: makerPink;
+    transform: translateY(2em);
+} */
+
 .name {
     font-size: 1.2rem;
+    font-size: 20px;
+    margin-right: 5px;
+    /* margin-bottom: 1em; */
 }
 
-.company {
-    position: relative;
-    margin-bottom: 1em;
+.title {
+    font-size: 12px;
 }
 
-.company::after {
-    /* position: absolute; */
+/* .name::after {
     display: block;
     content: '';
     width: 90%;
     height: 2px;
     background-color: makerPink;
     transform: translateY(0.5em);
+} */
+
+.company {
+    position: relative;
 }

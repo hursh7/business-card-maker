@@ -8,6 +8,7 @@ const CardAddForm = memo(({ FileInput, onAdd }) => {
     const companyRef = useRef();
     const themeRef = useRef();
     const titleRef = useRef();
+    const numberRef = useRef();
     const emailRef = useRef();
     const messageRef = useRef();
     const [file, setFile] = useState({
@@ -31,6 +32,7 @@ const CardAddForm = memo(({ FileInput, onAdd }) => {
             company: companyRef.current.value || '', 
             theme: themeRef.current.value || '', 
             title: titleRef.current.value || '', 
+            number: numberRef.current.value || '', 
             email: emailRef.current.value || '', 
             message: messageRef.current.value || '',
             fileName: file.fileName || '',
@@ -50,11 +52,32 @@ const CardAddForm = memo(({ FileInput, onAdd }) => {
             placeholder="Name" 
             />
             <input
+            ref={titleRef} 
+            className={styles.input} 
+            type="text" 
+            name="title" 
+            placeholder="Title" 
+            />
+            <input
             ref={companyRef} 
             className={styles.input} 
             type="text" 
             name="company" 
             placeholder="Company" 
+            />
+            <input
+            ref={numberRef} 
+            className={styles.input} 
+            type="text" 
+            name="number" 
+            placeholder="Phone Number" 
+            />
+            <input
+            ref={emailRef} 
+            className={styles.input} 
+            type="text" 
+            name="email" 
+            placeholder="Email" 
             />
             <select
             ref={themeRef} 
@@ -65,20 +88,6 @@ const CardAddForm = memo(({ FileInput, onAdd }) => {
                 <option placeholder="dark">dark</option>
                 <option placeholder="colorful">colorful</option>
             </select>
-            <input
-            ref={titleRef} 
-            className={styles.input} 
-            type="text" 
-            name="title" 
-            placeholder="Title" 
-            />
-            <input
-            ref={emailRef} 
-            className={styles.input} 
-            type="text" 
-            name="email" 
-            placeholder="Email" 
-            />
             <textarea
             ref={messageRef} 
             className={styles.textarea} 

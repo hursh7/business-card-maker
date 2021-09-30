@@ -3,7 +3,7 @@ import ButtonDelete from '../button_delete/button_delete';
 import styles from './card_edit_form.module.css';
 
 const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
-    const {name, company, title, email, message, theme, fileName} = card;
+    const {name, company, title, number, email, message, theme, fileName} = card;
 
     const onFileChange = file => {
         updateCard({
@@ -41,8 +41,29 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
             <input 
             className={styles.input} 
             type="text" 
+            name="title" 
+            value={title}
+            onChange={onChange} 
+            />
+            <input 
+            className={styles.input} 
+            type="text" 
             name="company" 
             value={company}
+            onChange={onChange} 
+            />
+            <input 
+            className={styles.input} 
+            type="text" 
+            name="number" 
+            value={number}
+            onChange={onChange} 
+            />
+            <input 
+            className={styles.input} 
+            type="text" 
+            name="email" 
+            value={email}
             onChange={onChange} 
             />
             <select 
@@ -55,20 +76,6 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
                 <option value="dark">Dark</option>
                 <option value="colorful">Colorful</option>
             </select>
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="title" 
-            value={title}
-            onChange={onChange} 
-            />
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="email" 
-            value={email}
-            onChange={onChange} 
-            />
             <textarea 
             className={styles.textarea} 
             name="message" 
