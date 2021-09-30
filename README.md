@@ -19,12 +19,7 @@
 * ```Cloudinary``` 로 이미지 업로드 기능 구현. 
 
 ### Skills & Tech Stack  
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
-<img src="https://img.shields.io/badge/PostCss-DD3A0A?style=flat-square&logo=PostCss&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" />
-<img src="https://img.shields.io/badge/React Router-CA4245?style=flat-square&logo=React Router&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloudinary-4285F4?style=flat-square&logo=Google Cloud&logoColor=white" />  
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" /><img src="https://img.shields.io/badge/PostCss-DD3A0A?style=flat-square&logo=PostCss&logoColor=white" /><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" /><img src="https://img.shields.io/badge/React Router-CA4245?style=flat-square&logo=React Router&logoColor=white" /><img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white" /><img src="https://img.shields.io/badge/Cloudinary-4285F4?style=flat-square&logo=Google Cloud&logoColor=white" />  
 
 ### Structure
 
