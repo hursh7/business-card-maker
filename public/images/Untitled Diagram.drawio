@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T04:47:41.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="pzkz14IDpwm0IOhiAfXi" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T04:48:53.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="JPLLlgrGkSabvTe0VZdM" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="864" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,17 @@
         <mxCell id="iWGha1-I6UxMjXV0nj9g-1" value="service" style="swimlane;fontSize=18;startSize=30;" vertex="1" parent="1">
           <mxGeometry x="40" y="50" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iWGha1-I6UxMjXV0nj9g-2" value="&lt;span style=&quot;font-size: 15px&quot;&gt;AuthService&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-2" value="&lt;span style=&quot;font-size: 15px&quot;&gt;auth_service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
           <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-3" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Firebase&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-4" value="&lt;span style=&quot;font-size: 15px&quot;&gt;card_repository&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+          <mxGeometry x="20" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-5" value="&lt;span style=&quot;font-size: 15px&quot;&gt;image_uploader&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+          <mxGeometry x="20" y="160" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
