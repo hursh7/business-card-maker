@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T05:12:00.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="AQXzQrtlW5ekwewFbKXg" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T05:13:09.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="vFPSf80UpUbz7XgdCBEU" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="864" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,6 +37,9 @@
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-25" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;font-weight: 400 ; font-size: 13px&quot;&gt;소셜 미디어 인증 기능&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
           <mxGeometry x="33" y="142" width="147" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-26" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;card(명함) CRUD&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+          <mxGeometry x="49" y="202" width="113" height="15" as="geometry" />
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-20" value="&lt;h1 style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;개인 API Key 보관&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;fontColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="230" y="106" width="140" height="20" as="geometry" />
