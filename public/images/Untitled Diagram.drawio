@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T06:27:08.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="rlAirU5s8v-p_6rjI-AN" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T06:28:13.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ogLrQYX81jSkTFLp3vzC" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,8 +147,8 @@
         <mxCell id="iWGha1-I6UxMjXV0nj9g-103" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Card&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="659.75" y="672.5" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iWGha1-I6UxMjXV0nj9g-104" value="&lt;font color=&quot;#000000&quot;&gt;개별 명함 컴포넌트&lt;br&gt;사용자 정보를 받아서&lt;br&gt;화면에 명함 표현.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="634.75" y="750" width="150" height="45" as="geometry" />
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-104" value="&lt;font color=&quot;#000000&quot;&gt;개별 명함 컴포넌트&lt;br&gt;사용자 정보(cards)를&amp;nbsp;&lt;br&gt;받아서 화면에 명함 표현.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="632" y="750" width="154.75" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
