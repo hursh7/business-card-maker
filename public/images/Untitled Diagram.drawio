@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T05:49:37.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="eGOBGxb4KiLgoE9Q7V9B" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T06:01:56.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="v-5grQBCeQexxSmQI7ao" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,6 +96,15 @@
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-62" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;명함 제작 컴포넌트&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="523.25" y="416" width="125.75" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-65" value="로그인 완료 시, 화면 전환&lt;br&gt;onLogin(Props)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="386" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-66" value="onLogin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fontColor=#FF0000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="162.25" y="440" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-67" value="goToMaker (화면전환)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-66">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
