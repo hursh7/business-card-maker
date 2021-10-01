@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T06:22:04.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="klRLsAlQJtlCc8nJMdIU" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T06:26:56.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Ll3ja8FS4amOFGVzUiIt" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,8 +133,22 @@
         <mxCell id="iWGha1-I6UxMjXV0nj9g-82" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;Login과 Maker의 공동 컴포넌트&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="348" y="326" width="114" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iWGha1-I6UxMjXV0nj9g-98" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Maker&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="559.75" y="490" width="100" height="60" as="geometry" />
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-98" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Preview&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="659.75" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#FF0000;" edge="1" parent="1" source="iWGha1-I6UxMjXV0nj9g-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709.75" y="672.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-100" value="&lt;font color=&quot;#000000&quot;&gt;제작된 명함 보관 &lt;br&gt;컴포넌트 &lt;br&gt;(실시간 미리 보기 지원)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="634.75" y="555" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-103" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Card&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="659.75" y="672.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-104" value="&lt;font color=&quot;#000000&quot;&gt;개별 명함 컴포넌트&lt;br&gt;사용자 정보를 받아서&lt;br&gt;화면에 명함 그려줌.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="634.75" y="750" width="150" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
