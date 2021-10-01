@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T06:01:56.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="v-5grQBCeQexxSmQI7ao" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T06:12:32.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="N6_aEb0RYETSkJ0XAKAa" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,30 @@
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-67" value="goToMaker (화면전환)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-66">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-70" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Header&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="352" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-71" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Footer&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="352" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-74" value="" style="endArrow=classic;html=1;fontSize=13;fontColor=#FF0000;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="iWGha1-I6UxMjXV0nj9g-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="533" y="350" as="sourcePoint" />
+            <mxPoint x="583" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-77" value="" style="swimlane;startSize=0;labelBackgroundColor=none;fontSize=13;fontColor=#FF0000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="336.5" y="210" width="133.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-83" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;로그아웃&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-77">
+          <mxGeometry x="34" y="47.5" width="69" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-79" value="OnLogout" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#3333FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="473" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-82" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;Login과 Maker의 공동 컴포넌트&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="348" y="326" width="114" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
