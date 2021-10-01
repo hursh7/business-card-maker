@@ -1,35 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T04:53:04.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="KsMcsKzLflhIyOavDD7i" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T05:06:54.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="k8h7t-SsLslJXIgwxRuy" version="15.3.8" type="github">
   <diagram id="qXojaY42aiBFxvhF_yrl" name="Page-1">
     <mxGraphModel dx="864" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZUQluo5VriQcecSHElmV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZUQluo5VriQcecSHElmV-1" target="ZUQluo5VriQcecSHElmV-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ZUQluo5VriQcecSHElmV-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;App&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUQluo5VriQcecSHElmV-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;App&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="260" y="150" width="100" height="60" as="geometry" />
+          <mxGeometry x="401" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZUQluo5VriQcecSHElmV-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;React&lt;/font&gt;-&lt;font style=&quot;font-size: 15px&quot;&gt;Router-Dom 컴포넌트&amp;nbsp;&lt;br&gt;&lt;b&gt;Login&lt;/b&gt; 과 &lt;b&gt;Maker&lt;/b&gt;&amp;nbsp;컴포넌트 &lt;br&gt;경로 설정.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;spacing=0;fontColor=#000000;spacingLeft=0;" parent="1" vertex="1">
-          <mxGeometry x="479" y="30" width="200" height="80" as="geometry" />
+          <mxGeometry x="520" y="40" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-1" value="service" style="swimlane;fontSize=18;startSize=30;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="200" height="200" as="geometry" />
+          <mxGeometry x="40" y="50" width="200" height="280" as="geometry">
+            <mxRectangle x="40" y="50" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="iWGha1-I6UxMjXV0nj9g-2" value="&lt;span style=&quot;font-size: 15px&quot;&gt;auth_service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
-          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iWGha1-I6UxMjXV0nj9g-1" source="iWGha1-I6UxMjXV0nj9g-2" target="iWGha1-I6UxMjXV0nj9g-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="iWGha1-I6UxMjXV0nj9g-3" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Firebase&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
-          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-2" value="&lt;span style=&quot;font-size: 15px&quot;&gt;firebase&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+          <mxGeometry x="20" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-3" value="&lt;span style=&quot;font-size: 15px&quot;&gt;auth_service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
+          <mxGeometry x="20" y="110" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-4" value="&lt;span style=&quot;font-size: 15px&quot;&gt;card_repository&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
-          <mxGeometry x="20" y="120" width="160" height="30" as="geometry" />
+          <mxGeometry x="20" y="170" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iWGha1-I6UxMjXV0nj9g-5" value="&lt;span style=&quot;font-size: 15px&quot;&gt;image_uploader&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="iWGha1-I6UxMjXV0nj9g-1">
-          <mxGeometry x="20" y="160" width="160" height="30" as="geometry" />
+          <mxGeometry x="20" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iWGha1-I6UxMjXV0nj9g-20" value="&lt;h1 style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;개인 API Key 보관&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-18;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;fontColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
