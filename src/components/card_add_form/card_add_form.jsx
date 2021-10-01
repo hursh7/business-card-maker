@@ -1,5 +1,5 @@
 import React, { memo, useRef, useState } from 'react';
-import AddButton from '../button_add/button_add';
+import ButtonAdd from '../button_add/button_add';
 import styles from './card_add_form.module.css';
 
 const CardAddForm = memo(({ FileInput, onAdd }) => {
@@ -97,7 +97,7 @@ const CardAddForm = memo(({ FileInput, onAdd }) => {
             <div className={styles.fileInput}>
                 <FileInput name={file.fileName} onFileChange = {onFileChange} />
             </div>
-            <AddButton className={styles.add} name='Add' onClick= {onSubmit} />
+            <ButtonAdd className={styles.add} name='Add' onClick= {onSubmit} />
         </form>
     )
 });

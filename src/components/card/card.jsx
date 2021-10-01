@@ -18,19 +18,19 @@ const Card = memo(({ card }) => {
                 <div className={styles.line}></div>
                 <p className={styles.company}>
                     <span className={styles.icon}>
-                        <i class="fas fa-briefcase"></i>
+                        <i className="fas fa-briefcase"></i>
                     </span>
                     {company}
                 </p>
                 <p className={styles.number}>
                     <span className={styles.icon}>
-                        <i class="fas fa-phone-alt"></i>
+                        <i className="fas fa-phone-alt"></i>
                     </span>
                     {number}
                 </p>
                 <p className={styles.email}>
                     <span className={styles.icon}>
-                        <i class="fas fa-envelope"></i>
+                        <i className="fas fa-envelope"></i>
                     </span>
                     {email}
                 </p>
