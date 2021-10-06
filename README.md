@@ -23,7 +23,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" /> <img src="https://img.shields.io/badge/PostCss-DD3A0A?style=flat-square&logo=PostCss&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" /> <img src="https://img.shields.io/badge/React Router-CA4245?style=flat-square&logo=React Router&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudinary-4285F4?style=flat-square&logo=Google Cloud&logoColor=white" />  
 
 ### Structure
-<img src="https://user-images.githubusercontent.com/48500615/135578206-c19b41bd-7cef-49d9-a4cc-fe629a3bc1e3.png" width="100%" alt="Cardmaker" />
+<img src="https://user-images.githubusercontent.com/48500615/135578206-c19b41bd-7cef-49d9-a4cc-fe629a3bc1e3.png" width="80%" alt="Cardmaker" />
 
 ### Functions
 * service 패널에 **Firebase** 관련 기능들(소셜 미디어 인증, 명함 추가/제거/업데이트, 명함 이미지 업로드 등..)을 분리하고 **App 컴포넌트**에 *Props*로 전달.  
