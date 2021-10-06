@@ -9,7 +9,7 @@ const Header = memo(({ onLogout }) => (
             </button>
         )}
         <div className={styles.logo}>
-            <img className={styles.img} src="static/images/logo.svg" alt="로고" />
+            <img className={styles.img} src="./images/logo.svg" alt="로고" />
             <h1 className={styles.text}>Cardmaker</h1>
         </div>
     </header>    

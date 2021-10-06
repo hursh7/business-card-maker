@@ -35,23 +35,23 @@ const Login = ({ authService }) => {
                     <br /> 
                     own business card!
                 </p>
-                <img class={styles.img} src="/images/main_bg.png" alt="메인이미지" />
+                <img class={styles.img} src="./images/main_bg.png" alt="메인이미지" />
                 <ul className={styles.container}>
                     <li className={styles.item}>
                         <button className={styles.button} onClick={onLogin}>
-                            <img className={styles.icon} src="/images/google.svg" alt="구글" />
+                            <img className={styles.icon} src="./images/google.svg" alt="구글" />
                             <p>Sign in with Google</p>
                         </button>
                     </li>
                     <li className={styles.item}>
                         <button className={styles.button} onClick={onLogin}>
-                            <img className={styles.icon} src="/images/github.svg" alt="깃허브" />
+                            <img className={styles.icon} src="./images/github.svg" alt="깃허브" />
                             <p>Sign in with Github</p>
                         </button>
                     </li>
                     <li className={styles.item}>
                         <button className={styles.button} onClick={onLogin} disabled="disabled">
-                            <img className={styles.icon} src="/images/facebook.svg" alt="페이스북" />
+                            <img className={styles.icon} src="./images/facebook.svg" alt="페이스북" />
                             <p>Sign in with Facebook</p>
                         </button>
                     </li>

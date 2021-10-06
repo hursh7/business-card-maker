@@ -1,4 +1,4 @@
-@value makerBg, makerColorful from './common/colors.css';
+@value makerColorful from './common/colors.css';
 
 * {
     box-sizing: border-box;

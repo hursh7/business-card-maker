@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import styles from './card.module.css';
 
-const DEFAULT_IMAGE = '/images/default_profile.svg';
+const DEFAULT_IMAGE = './images/default_profile.svg';
 const Card = memo(({ card }) => {
     const {name, company, title, number, email, message, theme, fileURL} = card;
     const url = fileURL || DEFAULT_IMAGE;
