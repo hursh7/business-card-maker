@@ -1,7 +1,7 @@
 # Cardmaker
 
 사용자의 정보를 실시간으로 업데이트 할 수 있는 반응형 명함 어플리케이션입니다.  
-페이지 링크: [**Link**](https://github.com/hursh7/business-card-maker)
+페이지 링크: [**https://hursh7.github.io/business-card-maker/**](https://hursh7.github.io/business-card-maker/)
 
 ## Preview
 <img src="https://user-images.githubusercontent.com/48500615/135408163-0f4c438e-1d19-4ad3-8444-ec6945c29524.png" width="100%" alt="Cardmaker" />
