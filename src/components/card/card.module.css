@@ -81,35 +81,15 @@
     margin-bottom: 8px;
 }
 
-/* .nameTitle::after {
-    position: absolute;
-    display: block;
-    content: '';
-    width: 90%;
-    height: 2px;
-    background-color: makerPink;
-    transform: translateY(2em);
-} */
-
 .name {
     font-size: 1.2rem;
     font-size: 20px;
     margin-right: 5px;
-    /* margin-bottom: 1em; */
 }
 
 .title {
     font-size: 12px;
 }
-
-/* .name::after {
-    display: block;
-    content: '';
-    width: 90%;
-    height: 2px;
-    background-color: makerPink;
-    transform: translateY(0.5em);
-} */
 
 .company {
     position: relative;
