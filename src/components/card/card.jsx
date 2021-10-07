@@ -15,28 +15,29 @@ const Card = memo(({ card }) => {
                     <h1 className={styles.name}>{name}</h1>
                     <p className={styles.title}>{title}</p>
                 </div>
-                <div className={styles.line}></div>
-                <p className={styles.company}>
-                    <span className={styles.icon}>
-                        <i className="fas fa-briefcase"></i>
-                    </span>
-                    {company}
-                </p>
-                <p className={styles.number}>
-                    <span className={styles.icon}>
-                        <i className="fas fa-phone-alt"></i>
-                    </span>
-                    {number}
-                </p>
-                <p className={styles.email}>
-                    <span className={styles.icon}>
-                        <i className="fas fa-envelope"></i>
-                    </span>
-                    {email}
-                </p>
-                <p className={styles.message}>
-                    {message}
-                </p>
+                <div className={styles.contents}>
+                    <p className={styles.company}>
+                        <span className={styles.icon}>
+                            <i className="fas fa-briefcase"></i>
+                        </span>
+                        {company}
+                    </p>
+                    <p className={styles.number}>
+                        <span className={styles.icon}>
+                            <i className="fas fa-phone-alt"></i>
+                        </span>
+                        {number}
+                    </p>
+                    <p className={styles.email}>
+                        <span className={styles.icon}>
+                            <i className="fas fa-envelope"></i>
+                        </span>
+                        {email}
+                    </p>
+                    <p className={styles.message}>
+                        {message}
+                    </p>
+                </div>
             </div>
         </li>
     );

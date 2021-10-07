@@ -1,4 +1,5 @@
 @value makerBlack, makerWhite, makerLightGrey, makerColorful, makerPink, makerBoldYellow,makerShadow from '../../common/colors.css';
+@value mediaQueryMobile from '../../common/size.css';
 
 .card {
     display: flex;
@@ -57,28 +58,34 @@
     width: 100%;
 }
 
+.contents {
+    width: 90%;
+}
+
 .company, .number, .email, .message {
-    /* margin: 0; */
     font-size: 0.8rem;
     margin-bottom: 0.2em;
 }
 
 .message {
-    margin-top: 5px;
-    width: 270px;
+    margin-top: 10px;
 }
 
 .nameTitle {
+    position: relative;
     display: flex;
     align-items: baseline;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
-.line {
+.nameTitle::after {
+    position: absolute;
+    display: block;
+    content: '';
     width: 90%;
     height: 2px;
     background-color: makerPink;
-    margin-bottom: 8px;
+    transform: translateY(35px);
 }
 
 .name {
@@ -93,4 +100,50 @@
 
 .company {
     position: relative;
+}
+
+@media screen and (max-width: mediaQueryMobile) {
+    .card {
+        flex-direction: column;
+        max-width: 15rem;
+    }
+
+    .avatar {
+        padding: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .info {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .nameTitle {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nameTitle::after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 10%;
+        height: 2px;
+        background-color: makerPink;
+        transform: translateY(52px);
+    }
+
+    .contents {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .message {
+        padding: 0 10px;
+    }
 }
