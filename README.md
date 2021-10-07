@@ -32,13 +32,13 @@
 <img src="https://user-images.githubusercontent.com/48500615/136397308-7ad1439f-d3cb-40a0-93ef-bc26c670a94e.gif" width="90%" alt="로그인 화면" />
 
 * 명함 제작 페이지의 **Editor 영역**에서 명함(card)을 추가/제거/업데이트 할 수 있다. (이미지도 업로드 가능하다.)
-<img src="https://user-images.githubusercontent.com/48500615/136398506-c9c3b3c6-8dbf-4ab0-824d-6c65ec7dbc08.gif" width="90%" alt="카드 에디터" />
+<img src="https://user-images.githubusercontent.com/48500615/136398506-c9c3b3c6-8dbf-4ab0-824d-6c65ec7dbc08.gif" width="90%" alt="명함 에디터" />
 
 * 완성된 명함은 **Preview 영역**에 생성되고, ```Firebase```의 **Real Time Database** 연동을 통해 실시간으로 명함 정보를 수정할 수 있다.
-<img src="https://user-images.githubusercontent.com/48500615/136399757-cad63213-cce4-4731-8521-4bfcc3666a1e.gif" width="90%" alt="로그인 화면" />
+<img src="https://user-images.githubusercontent.com/48500615/136399757-cad63213-cce4-4731-8521-4bfcc3666a1e.gif" width="90%" alt="명함 편집" />
 
 * 헤더 부분의 로그아웃 버튼을 누르면 로그인 화면으로 돌아간다. (로그아웃 되어도 생성된 명함 정보는 그대로 유지된다.)
-<img src="https://user-images.githubusercontent.com/48500615/136397308-7ad1439f-d3cb-40a0-93ef-bc26c670a94e.gif" width="90%" alt="로그인 화면" />       
+<img src="https://user-images.githubusercontent.com/48500615/136401001-f8b72205-3537-4f14-a8d6-39baeea6d9da.gif" width="90%" alt="로그아웃" />       
 
 
 
