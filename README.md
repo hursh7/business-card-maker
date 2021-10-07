@@ -4,7 +4,7 @@
 페이지 링크: [**https://hursh7.github.io/business-card-maker/**](https://hursh7.github.io/business-card-maker/)
 
 ## Preview
-<img src="https://user-images.githubusercontent.com/48500615/135408163-0f4c438e-1d19-4ad3-8444-ec6945c29524.png" width="100%" alt="프로젝트 미리보기" />
+<img src="https://user-images.githubusercontent.com/48500615/136408994-127f41a6-77bd-4cad-abde-8a3213515af7.png" width="100%" alt="프로젝트 미리보기" />
 
 ## Table of Contents
 1. [About the Project](#About-the-Project)
