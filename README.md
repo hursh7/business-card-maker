@@ -10,7 +10,7 @@
 1. [About the Project](#About-the-Project)
 2. [Tech Stack](#Tech-Stack)
 3. [Structure](#Structure) 
-4. [Functions](#Structure) 
+4. [Functions](#Functions) 
 
 ***  
 ### About the Project  
