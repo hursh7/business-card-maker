@@ -17,8 +17,11 @@ const FileInput = memo(props => (
 
 ReactDOM.render(
   <React.StrictMode>
-    <App authService={authService} FileInput={FileInput} cardRepository={cardRepository} />
+    <App
+      authService={authService}
+      FileInput={FileInput}
+      cardRepository={cardRepository}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
-

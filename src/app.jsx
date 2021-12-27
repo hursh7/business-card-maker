@@ -7,18 +7,22 @@ import Maker from './components/maker/maker';
 function App({ FileInput, authService, cardRepository }) {
   return (
     <div className={styles.app}>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Switch>
-            <Route exact path="/">
-              <Login authService={authService} />
-            </Route>
-            <Route path="/Maker">
-              <Maker FileInput={FileInput} authService={authService} cardRepository={cardRepository} />
-            </Route>
-          </Switch>
-        </BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route exact path='/'>
+            <Login authService={authService} />
+          </Route>
+          <Route path='/Maker'>
+            <Maker
+              FileInput={FileInput}
+              authService={authService}
+              cardRepository={cardRepository}
+            />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
-  )
+  );
 }
 
 export default App;
