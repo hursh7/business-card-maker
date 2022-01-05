@@ -1,48 +1,49 @@
 @value makerMain, makerWhite, makerBlack, makerYellow, makerBoldGrey from '../../common/colors.css';
 
 .header {
-    position: relative;
-    width: 100%;
-    /* background-color: makerMain; */
-    padding: 1.5em 2em;
+  position: relative;
+  width: 100%;
+  /* background-color: makerMain; */
+  padding: 1.5em 2em;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img {
-    width: 1.8em;
-    filter: invert(23%) sepia(96%) saturate(5826%) hue-rotate(218deg) brightness(101%) contrast(103%);
+  width: 1.8em;
+  filter: invert(23%) sepia(96%) saturate(5826%) hue-rotate(218deg)
+    brightness(101%) contrast(103%);
 }
 
 .text {
-    user-select: none;
-    margin-left: 3px;
-    font-size: 1.5rem;
-    letter-spacing: -1px;
-    word-spacing: -5px;
-    color: makerMain;
+  user-select: none;
+  margin-left: 3px;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  word-spacing: -5px;
+  color: makerMain;
 }
 
 .logout {
-    position: absolute;
-    font-size: 0.75rem;
-    right: 1.5em;
-    top: 2.3em;
-    /* padding: 0.313rem; */
-    padding: 8px;
-    border-radius: 5px;
-    background-color: makerBlack;
-    color: makerWhite;
-    outline: 0;
-    border: 0;
-    cursor: pointer;
+  position: absolute;
+  font-size: 0.75rem;
+  right: 1.5em;
+  top: 2.3em;
+  /* padding: 0.313rem; */
+  padding: 8px;
+  border-radius: 5px;
+  background-color: makerBlack;
+  color: makerWhite;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
 }
 
 .logout:hover {
-    background-color: makerYellow;
-    transition: all .15s linear;
+  background-color: makerYellow;
+  transition: all 0.15s linear;
 }

@@ -1,14 +1,14 @@
 @value makerMain, makerGrey from '../../common/colors.css';
 
 .footer {
-    /* background-color: makerMain; */
-    text-align: center;
+  /* background-color: makerMain; */
+  text-align: center;
 }
 
 .footer p {
-    padding: 15px 0;
-    font-size: 14px;
-    font-weight: medium;
-    color: makerGrey;
-    user-select: none;
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: medium;
+  color: makerGrey;
+  user-select: none;
 }

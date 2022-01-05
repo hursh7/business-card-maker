@@ -2,148 +2,151 @@
 @value mediaQueryMobile from '../../common/size.css';
 
 .card {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-    padding: 1em 0;
-    box-shadow: 4px 3px 8px 0px rgba(173, 173, 173, 0.623);
-    max-width: 30rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  padding: 1em 0;
+  box-shadow: 4px 3px 8px 0px rgba(173, 173, 173, 0.623);
+  max-width: 30rem;
 }
 
 .icon {
-    font-size: 14px;
-    margin-right: 5px;
+  font-size: 14px;
+  margin-right: 5px;
 }
 
 .card.light {
-    background-color: makerWhite;
-    color: makerBlack;
-    border: 1px solid makerLightGrey;
+  background-color: makerWhite;
+  color: makerBlack;
+  border: 1px solid makerLightGrey;
 }
 
 .card.dark {
-    background-color: makerBlack;
-    color: makerWhite;
+  background-color: makerBlack;
+  color: makerWhite;
 }
 
 .card.dark .icon {
-    color: makerWhite;
+  color: makerWhite;
 }
 
 .card.colorful {
-    background-image: makerColorful;
-    color: makerBoldYellow;
+  background-image: makerColorful;
+  color: makerBoldYellow;
 }
 
 .card.colorful .icon {
-    color: makerBoldYellow;
+  color: makerBoldYellow;
 }
 
 .avatar {
-    padding: 1em;
-    margin-left: 0.5em;
-    margin-right: 1em;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
+  padding: 1em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .contents {
-    width: 90%;
+  width: 90%;
 }
 
-.company, .number, .email, .message {
-    font-size: 0.8rem;
-    margin-bottom: 0.2em;
+.company,
+.number,
+.email,
+.message {
+  font-size: 0.8rem;
+  margin-bottom: 0.2em;
 }
 
 .message {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .nameTitle {
-    position: relative;
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 16px;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
 }
 
 .nameTitle::after {
-    position: absolute;
-    display: block;
-    content: '';
-    width: 90%;
-    height: 2px;
-    background-color: makerPink;
-    transform: translateY(35px);
+  position: absolute;
+  display: block;
+  content: '';
+  width: 90%;
+  height: 2px;
+  background-color: makerPink;
+  transform: translateY(35px);
 }
 
 .name {
-    font-size: 1.2rem;
-    font-size: 20px;
-    margin-right: 5px;
+  font-size: 1.2rem;
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 .title {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .company {
-    position: relative;
+  position: relative;
 }
 
 @media screen and (max-width: mediaQueryMobile) {
-    .card {
-        flex-direction: column;
-        max-width: 15rem;
-    }
+  .card {
+    flex-direction: column;
+    max-width: 15rem;
+  }
 
-    .avatar {
-        padding: 1em;
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .avatar {
+    padding: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .info {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-    }
+  .info {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
-    .nameTitle {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
+  .nameTitle {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 
-    .nameTitle::after {
-        position: absolute;
-        display: block;
-        content: '';
-        width: 10%;
-        height: 2px;
-        background-color: makerPink;
-        transform: translateY(52px);
-    }
+  .nameTitle::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10%;
+    height: 2px;
+    background-color: makerPink;
+    transform: translateY(52px);
+  }
 
-    .contents {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .message {
-        padding: 0 10px;
-    }
+  .message {
+    padding: 0 10px;
+  }
 }

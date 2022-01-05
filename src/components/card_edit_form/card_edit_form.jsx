@@ -3,91 +3,95 @@ import ButtonDelete from '../button_delete/button_delete';
 import styles from './card_edit_form.module.css';
 
 const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
-    const {name, company, title, number, email, message, theme, fileName} = card;
+  const { name, company, title, number, email, message, theme, fileName } =
+    card;
 
-    const onFileChange = file => {
-        updateCard({
-            ...card,
-            fileName: file.name,
-            fileURL: file.url,
-        });
-    };
+  const onFileChange = file => {
+    updateCard({
+      ...card,
+      fileName: file.name,
+      fileURL: file.url,
+    });
+  };
 
-    const onChange = (event) => {
-        if (event.currentTarget == null) {
-            return;    
-        }
-        event.preventDefault();
-        updateCard({
-            ...card,
-            [event.currentTarget.name]: event.currentTarget.value,
-        });
+  const onChange = event => {
+    if (event.currentTarget == null) {
+      return;
     }
-    const onSubmit = event => {
-        event.preventDefault();
-        deleteCard(card);
-    };
-    
- 
-    return (
-        <form className={styles.form}>
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="name" 
-            value={name} 
-            onChange={onChange}
-            />
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="title" 
-            value={title}
-            onChange={onChange} 
-            />
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="company" 
-            value={company}
-            onChange={onChange} 
-            />
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="number" 
-            value={number}
-            onChange={onChange} 
-            />
-            <input 
-            className={styles.input} 
-            type="text" 
-            name="email" 
-            value={email}
-            onChange={onChange} 
-            />
-            <select 
-            className={styles.select} 
-            name="theme" 
-            value={theme}
-            onChange={onChange}
-            >
-                <option value="light">Light</option>
-                <option value="dark">Dark</option>
-                <option value="colorful">Colorful</option>
-            </select>
-            <textarea 
-            className={styles.textarea} 
-            name="message" 
-            value={message}
-            onChange={onChange} 
-            />
-            <div className={styles.fileInput}>
-                <FileInput name={fileName} onFileChange={onFileChange} />
-            </div>
-            <ButtonDelete className={styles.delete} name='Delete' onClick={onSubmit} />
-        </form>
-    )
+    event.preventDefault();
+    updateCard({
+      ...card,
+      [event.currentTarget.name]: event.currentTarget.value,
+    });
+  };
+  const onSubmit = event => {
+    event.preventDefault();
+    deleteCard(card);
+  };
+
+  return (
+    <form className={styles.form}>
+      <input
+        className={styles.input}
+        type='text'
+        name='name'
+        value={name}
+        onChange={onChange}
+      />
+      <input
+        className={styles.input}
+        type='text'
+        name='title'
+        value={title}
+        onChange={onChange}
+      />
+      <input
+        className={styles.input}
+        type='text'
+        name='company'
+        value={company}
+        onChange={onChange}
+      />
+      <input
+        className={styles.input}
+        type='text'
+        name='number'
+        value={number}
+        onChange={onChange}
+      />
+      <input
+        className={styles.input}
+        type='text'
+        name='email'
+        value={email}
+        onChange={onChange}
+      />
+      <select
+        className={styles.select}
+        name='theme'
+        value={theme}
+        onChange={onChange}
+      >
+        <option value='light'>Light</option>
+        <option value='dark'>Dark</option>
+        <option value='colorful'>Colorful</option>
+      </select>
+      <textarea
+        className={styles.textarea}
+        name='message'
+        value={message}
+        onChange={onChange}
+      />
+      <div className={styles.fileInput}>
+        <FileInput name={fileName} onFileChange={onFileChange} />
+      </div>
+      <ButtonDelete
+        className={styles.delete}
+        name='Delete'
+        onClick={onSubmit}
+      />
+    </form>
+  );
 };
 
 export default CardEditForm;

@@ -1,18 +1,18 @@
 @value makerBlack, makerRed, makerWhite from '../../common/colors.css';
 
 .button {
-    background-color: makerRed;
-    color: makerWhite;
-    font-weight: bold;
-    cursor: pointer; 
-    padding: 0.5em;
-    flex: 1 1 50%;
-    font-size: 0.8rem;
-    border: 1px solid makerBlack;
-    border-left: 0;
-    border-top: 0;
+  background-color: makerRed;
+  color: makerWhite;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.5em;
+  flex: 1 1 50%;
+  font-size: 0.8rem;
+  border: 1px solid makerBlack;
+  border-left: 0;
+  border-top: 0;
 }
 
 .button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }

@@ -2,27 +2,27 @@
 @value makerWhite, makerShadow from '../../common/colors.css';
 
 .maker {
-    width: 100%;
-    height: 100%;
-    max-width: 80rem;
-    display: flex;
-    flex-direction: column;
-    background-color: makerWhite;
-    box-shadow: makerShadow;
-    border-radius: 8px;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  background-color: makerWhite;
+  box-shadow: makerShadow;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .container {
-    /* padding: 1em 0; */
-    background-color: makerWhite;
-    display: flex;
-    flex: 1;
-    min-height: 0;
+  /* padding: 1em 0; */
+  background-color: makerWhite;
+  display: flex;
+  flex: 1;
+  min-height: 0;
 }
 
 @media screen and (max-width: mediaQuery) {
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 }

@@ -2,38 +2,38 @@
 @value mediaQuery from '../../common/size.css';
 
 .editor {
-    flex-basis: 50%;
-    border-right: 1px solid makerLightGrey ;
-    padding: 0 2em;
-    overflow-y: auto;
+  flex-basis: 50%;
+  border-right: 1px solid makerLightGrey;
+  padding: 0 2em;
+  overflow-y: auto;
 }
 
 .editor::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 .editor::-webkit-scrollbar-thumb {
-    background-color: makerBoldGrey;
-    border-radius: 10px;
-    background-clip: padding-box;
-    border: 2px solid transparent;
+  background-color: makerBoldGrey;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
 }
 .editor::-webkit-scrollbar-track {
-    background-color: grey;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 5px #fff;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px #fff;
 }
 
 .title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
-    color: makerBoldGrey;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  color: makerBoldGrey;
 }
 
 @media screen and (max-width: mediaQuery) {
-    .editor {
-        margin-bottom: 40px;
-    }
+  .editor {
+    margin-bottom: 40px;
+  }
 }
